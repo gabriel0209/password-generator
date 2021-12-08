@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Password Generator In Javascript</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="password-generator">
+      <h2>Password Generator</h2>
+      <div class="password">
+        <p id="passwordBox"></p>
+      </div>
+      <div>
+        <label for="length">Length</label>
+        <input type="number" id="length" value="6">
+      </div>
+      <div>
+        <label for="symbol">Include Symbol</label>
+        <input type="checkbox" id="symbol" checked>
+      </div>
+      <div>
+        <label for="number">Include Number</label>
+        <input type="checkbox" id="number" checked>
+      </div>
+      <div>
+        <label for="lowerCase">Include lowerCase</label>
+        <input type="checkbox" id="lowerCase" checked>
+      </div>
+      <div>
+        <label for="upperCase">Include upperCase</label>
+        <input type="checkbox" id="upperCase" checked>
+      </div>
+      <button id="get_password">Get Random Password</button>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
